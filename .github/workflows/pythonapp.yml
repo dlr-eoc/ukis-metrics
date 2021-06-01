@@ -1,4 +1,4 @@
-name: ukis-metrics
+name: ukis_metrics
 
 on:
   push:
@@ -35,4 +35,4 @@ jobs:
       with:
         file: coverage.xml
         flags: pytest
-        name: codecov-umbrella-ukis-metrics
+        name: codecov-umbrella-ukis_metrics

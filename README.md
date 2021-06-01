@@ -6,7 +6,7 @@ A pure Numpy-based implementation of the most common performance metrics for sem
 
 ## Installation
 ```shell
-pip install ukis-metrics
+pip install ukis_metrics
 ```
 
 ```shell
