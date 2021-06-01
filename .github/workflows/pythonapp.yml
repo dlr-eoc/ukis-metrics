@@ -27,9 +27,9 @@ jobs:
         poetry install
     - name: Test with pytest
       run: |
-        pytest
-        coverage run -m pytest
-        coverage xml
+        poetry run pytest tests/
+        poetry run coverage run -m pytest
+        poetry run coverage xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
       with:
