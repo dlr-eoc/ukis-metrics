@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ukis_metrics"
+version = "0.1.0"
+license="Apache 2.0"
+description = "Numpy-based implementation of common performance metrics for semantic image segmentation"
+authors = ["German Aerospace Center (DLR) <ukis-helpdesk@dlr.de"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.2"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+scikit-learn = "^0.24.2"
+coverage = "^5.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
