@@ -81,13 +81,11 @@ metrics = segm.segmentation_metrics(tpfptnfn)
 ```
 So far these metrics were only used for binary classification, although one should be able to use them for 
 multiclass segmentation too, if the slices for a given class are provided individually.
-h
-
 
 ## References
 - [1] [Sokolova and Lapalme 2009: A systematic analysis of performance measures for classification tasks](https://www.researchgate.net/publication/222674734_A_systematic_analysis_of_performance_measures_for_classification_tasks)
-- [2] [scikit-learn](https:/scikit-learn.org/stable/modules/model_evaluation.html)
-- [3] [Berman et al. 2018: The Lov ́asz-Softmax loss: A tractable surrogate for the optimization of 
+- [2] [scikit-learn](https://scikit-learn.org/stable/modules/model_evaluation.html)
+- [3] [Berman et al. 2018: The Lovász-Softmax loss: A tractable surrogate for the optimization of 
   the intersection-over-union measure in neural networks](https://arxiv.org/pdf/1705.08790.pdf)
 - [4] [Tang et al. 2015: Kappa coefficient: a popular measure of rater agreement](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4372765/) 
 
@@ -104,7 +102,7 @@ German Aerospace Center (DLR)
 ## Licenses
 This software is licensed under the [Apache 2.0 License](https://github.com/dlr-eoc/ukis-metrics/blob/main/LICENSE).
 
-Copyright (c) 2020 German Aerospace Center (DLR) * German Remote Sensing Data Center * Department: Geo-Risks and Civil Security
+Copyright (c) 2021 German Aerospace Center (DLR) * German Remote Sensing Data Center * Department: Geo-Risks and Civil Security
 
 ## Changelog
 See [changelog](https://github.com/dlr-eoc/ukis-metrics/blob/main/CHANGELOG.md).
