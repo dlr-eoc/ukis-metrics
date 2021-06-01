@@ -3,7 +3,7 @@ name = "ukis_metrics"
 version = "0.1.0"
 license="Apache 2.0"
 description = "Numpy-based implementation of common performance metrics for semantic image segmentation"
-authors = ["German Aerospace Center (DLR) <ukis-helpdesk@dlr.de"]
+authors = ["German Aerospace Center (DLR) <ukis-helpdesk@dlr.de>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
