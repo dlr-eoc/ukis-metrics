@@ -1,4 +1,4 @@
-name: ukis_metrics
+name: ukis-metrics
 
 on:
   push:
