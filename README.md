@@ -17,7 +17,7 @@ pip install ukis_metrics
 ```shell
 >>> import ukis_metrics
 >>> ukis_metrics.__version__
-'0.1.0'
+'0.1.1'
 ```
 
 ## Why?
@@ -63,7 +63,7 @@ metrics:
   ```math
   IoU = \frac{tp}{tp + fp + fn}
   ```  
-- Kappa: [4]
+- Kappa: refer to [4] for the full documentation
 
 ## How to use
 Simply pass a Numpy ndarray to get a dict containing the `tpfptnfn` and pass the dict to `segmentation_metrics(tpfptnfn)`:

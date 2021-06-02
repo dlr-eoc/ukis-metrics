@@ -13,6 +13,14 @@ Changed
 ^^^^^^^
 something was changed
 
+[0.1.1] (2021-06-02)
+---------------------
+
+Added
+^^^^^
+- ``performance``: Added metrics execution time comparison to sklearn
+
+
 [0.1.0] (2021-06-01)
 ---------------------
 
