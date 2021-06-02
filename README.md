@@ -63,7 +63,8 @@ metrics:
   ```math
   IoU = \frac{tp}{tp + fp + fn}
   ```  
-- Kappa: refer to [4] for the full documentation
+- Kappa: The computation of the Kappa-score incorporates several steps. Please refer to [4] for the full 
+  documentation
 
 ## How to use
 Simply pass a Numpy ndarray to get a dict containing the `tpfptnfn` and pass the dict to `segmentation_metrics(tpfptnfn)`:
