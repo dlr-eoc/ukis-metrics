@@ -45,7 +45,7 @@ and the number of valid pixels **n_valid_pixels** are computed. These values are
 metrics:
 - Accuracy [1]:   
   ```math
-  acc = \frac{tp + tn}{tp + fn + fp + tn}
+  <img src="https://render.githubusercontent.com/render/math?math=acc = \frac{tp + tn}{tp + fn + fp + tn}">
   ```
 - Recall [1]:
   ```math
