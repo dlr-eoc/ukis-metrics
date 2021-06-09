@@ -43,8 +43,10 @@ kap             0.001824                                0.034577                
 In a first step the **true positives** *tp*, **true negatives** *tn*, **false positives** *fp*, **false negatives** *fn*
 and the number of valid pixels **n_valid_pixels** are computed. These values are then used to compute the following 
 metrics:
-- Accuracy [1]:
-  <img src="https://render.githubusercontent.com/render/math?math=acc = \frac{tp + tn}{tp + fn + fp + tn}">
+- Accuracy [1]:   
+  ```math
+  acc = \frac{tp + tn}{tp + fn + fp + tn}
+  ```
 - Recall [1]:
   ```math
   rec = \frac{tp}{tp + fp}
