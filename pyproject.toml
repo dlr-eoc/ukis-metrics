@@ -1,6 +1,8 @@
 [tool.poetry]
 name = "ukis_metrics"
 version = "0.1.1"
+readme = "README.md"
+repository = "https://github.com/dlr-eoc/ukis-metrics"
 license="Apache 2.0"
 description = "Numpy-based implementation of common performance metrics for semantic image segmentation"
 authors = ["German Aerospace Center (DLR) <ukis-helpdesk@dlr.de>"]
