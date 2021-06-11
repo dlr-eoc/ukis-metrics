@@ -83,6 +83,8 @@ metrics = segm.segmentation_metrics(tpfptnfn)
 So far these metrics were only used for binary classification, although one should be able to use them for 
 multiclass segmentation too, if the slices for a given class are provided individually.
 
+There is a [jupyter notebook](https://github.com/dlr-eoc/ukis-metrics/tree/main/examples) showing how ukis-metrics can be used and how it could be extended for multiclass problems.
+
 ## References
 - [1] [Sokolova and Lapalme 2009: A systematic analysis of performance measures for classification tasks](https://www.researchgate.net/publication/222674734_A_systematic_analysis_of_performance_measures_for_classification_tasks)
 - [2] [scikit-learn](https://scikit-learn.org/stable/modules/model_evaluation.html)
