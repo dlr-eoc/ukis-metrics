@@ -49,7 +49,7 @@ metrics:
   ```
 - Recall [1]:
   ```math
-  rec = \frac{tp}{tp + fp}
+  rec = \frac{tp}{tp + fn}
   ```
 - Precision [1]:
   ```math
