@@ -1,17 +1,12 @@
 Changelog
 =========
+[0.1.2] (2021-06-30)
+---------------------
 
 Added
 ^^^^^
-something was added
+- added support for Python >=3.7 instead of >=3.8
 
-Fixed
-^^^^^
-something was fixed
-
-Changed
-^^^^^^^
-something was changed
 
 [0.1.1] (2021-06-02)
 ---------------------
@@ -28,3 +23,15 @@ Added
 ^^^^^
 - ``seg_metrics``: Added basic metrics implementation
 - ``tests``: Added tests 
+
+Added
+^^^^^
+something was added
+
+Fixed
+^^^^^
+something was fixed
+
+Changed
+^^^^^^^
+something was changed
