@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ukis_metrics"
-version = "0.1.2"
+version = "0.1.3"
 readme = "README.md"
 repository = "https://github.com/dlr-eoc/ukis-metrics"
 license="Apache 2.0"

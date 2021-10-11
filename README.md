@@ -17,7 +17,7 @@ pip install ukis_metrics
 ```shell
 >>> import ukis_metrics
 >>> ukis_metrics.__version__
-'0.1.2'
+'0.1.3'
 ```
 
 ## Why?

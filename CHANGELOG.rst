@@ -1,5 +1,12 @@
 Changelog
 =========
+[0.1.3] (2021-10-11)
+---------------------
+
+Added
+^^^^^
+- new release to add DOI
+
 [0.1.2] (2021-06-30)
 ---------------------
 
@@ -23,15 +30,3 @@ Added
 ^^^^^
 - ``seg_metrics``: Added basic metrics implementation
 - ``tests``: Added tests 
-
-Added
-^^^^^
-something was added
-
-Fixed
-^^^^^
-something was fixed
-
-Changed
-^^^^^^^
-something was changed
