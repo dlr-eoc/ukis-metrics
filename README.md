@@ -6,6 +6,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/ukis-metrics)](https://pypi.python.org/pypi/ukis-metrics/)
 [![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://black.readthedocs.io/en/stable/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5561771.svg)](https://doi.org/10.5281/zenodo.5561771)
 
 A pure Numpy-based implementation of the most common performance metrics for semantic image segmentation. 
 
