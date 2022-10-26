@@ -200,10 +200,7 @@ def test_kappa():
     y_true_sk = y_true[valid_mask == 1]
     y_pred_sk = y_pred[valid_mask == 1]
     tpfptnfn = segm.tpfptnfn(y_true, y_pred, valid_mask)
-    assert (
-        round(
-            segm._kappa(tpfptnfn["tp"], tpfptnfn["fp"], tpfptnfn["tn"], tpfptnfn["fn"], tpfptnfn["n_valid_pixel"]),
-            6,
-        )
-        == round(cohen_kappa_score(y_true_sk.flatten(), y_pred_sk.flatten()), 6)
-    )
+    assert round(
+        segm._kappa(tpfptnfn["tp"], tpfptnfn["fp"], tpfptnfn["tn"], tpfptnfn["fn"], tpfptnfn["n_valid_pixel"]),
+        6,
+    ) == round(cohen_kappa_score(y_true_sk.flatten(), y_pred_sk.flatten()), 6)
