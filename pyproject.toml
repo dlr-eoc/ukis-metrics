@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ukis_metrics"
-version = "0.1.3"
+version = "0.1.4"
 readme = "README.md"
 repository = "https://github.com/dlr-eoc/ukis-metrics"
 license="Apache 2.0"
@@ -8,16 +8,16 @@ description = "Numpy-based implementation of common performance metrics for sema
 authors = ["German Aerospace Center (DLR) <ukis-helpdesk@dlr.de>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-numpy = "^1.20.2"
+python = "^3.8"
+numpy = "^1.24.3"
 
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
-scikit-learn = "^0.24.2"
+pytest = "^7.3"
+scikit-learn = "^1.2.2"
 toml = "^0.10.2"
-coverage = "^5.5"
-black = "^22.10.0"
+coverage = "^7.2"
+black = "^23.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
